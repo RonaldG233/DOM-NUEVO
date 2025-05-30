@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+body{
+  background-color: rgb(253, 253, 253);
+  width: 100%;
+}
+.encabezado{
+  width: 100%;
+  height: 10vh;
+}
