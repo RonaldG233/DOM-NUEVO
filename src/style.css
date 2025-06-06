@@ -1,14 +1,51 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;600&display=swap');
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
 }
-body{
-  background-color: rgb(253, 253, 253);
+
+#app {
   width: 100%;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: 'Poppins', sans-serif;
 }
-.encabezado{
-  width: 100%;
-  height: 10vh;
+
+.header {
+  display: flex;
+  height: 12vh;
+  padding: 0 3%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2C5364;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header__logo {
+  height: 90%;
+  width: auto;
+}
+
+.header__navegacion {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 2.5vh;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+
+
+.header__link:hover {
+  color: #FFD700;
+  
 }
